@@ -14,7 +14,7 @@ body {font-family: 'Lato', sans-serif;
 	img {
  		width: 70%;
  		height: auto;
- 		align: right;
+ 		float: right;
  		margin: 5px;
  		}
  	
@@ -50,7 +50,7 @@ body {font-family: 'Lato', sans-serif;
 		}
 	}
  		
- 	#photo {align: right;
+ 	#photo {float: right;
  	}
  	
  	#personal {color:rgb(77, 77, 77);
@@ -67,7 +67,7 @@ body {font-family: 'Lato', sans-serif;
 			border-spacing: 1px;
 			
 		} 
-	}
+	
 	#edu {
 		padding-top: 50px;
 		padding-bottom: 50px;
