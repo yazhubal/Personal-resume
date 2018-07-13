@@ -66,7 +66,8 @@ body {font-family: 'Lato', sans-serif;
 
 	}
 
-	ul {font-size: 60%;}
+	ul {list-style: none;
+		font-size: 60%;}
 	 
 	 .col-left {
 		width: 75%;
