@@ -155,3 +155,9 @@ p {
 	float: right;
 	color: rgb(77, 77, 77);
 }
+i {padding-right: 5px;
+}
+
+link {color: #a9a9a9;
+	padding-right: 5px;
+}
