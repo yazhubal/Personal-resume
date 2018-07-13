@@ -1,126 +1,140 @@
-body {font-family: 'Lato', sans-serif;
- color: white;
- }
- h1 {font-size: 300%;
- }
- h1,h4 {color: #1a94ff;
- }
- 
- #container {
- width: 80%;
- margin: auto
- }
- 
-	img {
- 		width: 70%;
- 		height: auto;
- 		float: right;
- 		margin: 5px;
- 		}
- 	
- 	footer {background-color: #807f7f;
- 	color: white;
- 	margin-top: 100%;
- 	}
- 	
- 	footer p {padding-top: 15px;
- 	padding-bottom: 2px;
- 	text-align: center;}
- 	
- 	@media screen and (max-width: 768px) {
- 		#container {
- 		width: 90%;
- 		}
- 		
- 		h1 {
- 			font-size: 300%;
- 			}
- 			
- 		#mail {color:rgb(77, 77, 77);
- 		padding-top: 3px;
- 		padding-bottom: 15px;
-		 }
-		 .col-left, .col-right {
-			width: 100%;
-			float: none;
-		}
-	
-		.col-left {
-			padding-bottom: 30px;
-		}
-	}
- 		
- 	#photo {float: right;
- 	}
- 	
- 	#personal {color:rgb(77, 77, 77);
- 	}
- 	
- 	#list {font-size: 70%;
-	 }
+body {
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
 
-	 section {padding-bottom: 10px;
-			
-			border-width:1px;  
-			border-bottom-style:dotted;
-			color: rgb(174, 174, 174);
-			border-spacing: 1px;
-			
-		} 
-	
-	#edu {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	#career {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	em {color: grey;
+h1 {
+	font-size: 300%;
+}
 
-	}
+h1, h4 {
+	color: #1a94ff;
+}
 
-	ul {list-style: none;
-		font-size: 60%;}
-	 
-	 .col-left {
-		width: 75%;
-		float: left;
-	}
-	
-	.col-right {
-		width: 22%;
-		float: right;
-	}
-	
-	.clear {
-		clear: both;
-	}
-	p {color:rgb(77, 77, 77);
-	padding-top:0px;
-	padding-bottom: 0px;
-	font-size:60%;
+#container {
+	width: 80%;
+	margin: auto
+}
+
+img {
+	width: 70%;
+	height: auto;
+	float: right;
 	margin: 5px;
-	}
-	
-	.col-left-edu{
-			width: 22%;
-			float: left;
-		}
-		
-		.col-right-edu {
-			width: 75%;
-			float: right;
-			color: rgb(77, 77, 77);
-		}
+}
 
-	.col-left-career {
-			width: 22%;
-			float: left;
-		}
-		
-		.col-right-career {
-			width: 75%;
-			float: right;
-			color: rgb(77, 77, 77);
-		}
+footer {
+	background-color: #807f7f;
+	color: white;
+	margin-top: 100%;
+}
+
+footer p {
+	padding-top: 15px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	#container {
+		width: 90%;
+	}
+	h1 {
+		font-size: 300%;
+	}
+	#mail {
+		color: rgb(77, 77, 77);
+		padding-top: 3px;
+		padding-bottom: 15px;
+	}
+	.col-left, .col-right {
+		width: 100%;
+		float: none;
+	}
+	.col-left {
+		padding-bottom: 30px;
+	}
+}
+
+#photo {
+	float: right;
+}
+
+#personal {
+	color: rgb(77, 77, 77);
+}
+
+#list {
+	font-size: 70%;
+}
+
+section {
+	padding-bottom: 10px;
+	border-width: 1px;
+	border-bottom-style: dotted;
+	color: rgb(174, 174, 174);
+	border-spacing: 1px;
+}
+
+#edu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#career {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+em {
+	color: grey;
+}
+
+ul {
+	list-style: none;
+	font-size: 60%;
+}
+
+.col-left {
+	width: 75%;
+	float: left;
+}
+
+.col-right {
+	width: 22%;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	color: rgb(77, 77, 77);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 60%;
+	margin: 5px;
+}
+
+.col-left-edu {
+	width: 22%;
+	float: left;
+}
+
+.col-right-edu {
+	width: 75%;
+	float: right;
+	color: rgb(77, 77, 77);
+}
+
+.col-left-career {
+	width: 22%;
+	float: left;
+}
+
+.col-right-career {
+	width: 75%;
+	float: right;
+	color: rgb(77, 77, 77);
+}
