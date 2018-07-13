@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-	font-size: 300%;
+	font-size: 200%;
+	float: left;
 }
 
 h1, h4 {
@@ -17,7 +18,7 @@ h1, h4 {
 }
 
 img {
-	width: 70%;
+	width: 80%;
 	height: auto;
 	float: right;
 	margin: 5px;
@@ -140,13 +141,12 @@ p {
 }
 
 .col-left-header{
-	width: 50%;
+	width:75%;
 	float: left;
 }
 
 .col-right-header{
-	width: 50%;
+	width: 22%;
 	float: right;
 	color: rgb(77, 77, 77);
-	background-color: #1a94ff
 }
