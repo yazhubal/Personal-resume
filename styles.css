@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-	font-size: 200%;
-	float: left;
+	font-size: 300%;
+	
 }
 
 h1, h4 {
@@ -41,7 +41,7 @@ footer p {
 		width: 90%;
 	}
 	h1 {
-		font-size: 300%;
+		font-size: 180%;
 	}
 	#mail {
 		color: rgb(77, 77, 77);
@@ -54,6 +54,10 @@ footer p {
 	}
 	.col-left {
 		padding-bottom: 30px;
+	
+	}
+	img {
+		width: 120%;
 	}
 }
 
@@ -141,7 +145,7 @@ p {
 }
 
 .col-left-header{
-	width:75%;
+	width:45%;
 	float: left;
 }
 
