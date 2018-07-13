@@ -69,10 +69,13 @@ body {font-family: 'Lato', sans-serif;
 		} 
 	
 	#edu {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
-	
+	#career {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 	em {color: grey;
 
 	}
