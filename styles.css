@@ -88,3 +88,14 @@ body {font-family: 'Lato', sans-serif;
 			float: right;
 			color: grey;
 		}
+
+	.col-left-career {
+			width: 22%;
+			float: left;
+		}
+		
+		.col-right-career {
+			width: 75%;
+			float: right;
+			color: grey;
+		}
