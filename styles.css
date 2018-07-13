@@ -60,8 +60,12 @@ body {font-family: 'Lato', sans-serif;
 	 }
 
 	 section {padding-bottom: 70px;
+		
 	}
-
+	#edu {
+		border-width:5px;  
+    border-bottom-style:dotted;
+	}
 	em {color: grey;
 
 	}
