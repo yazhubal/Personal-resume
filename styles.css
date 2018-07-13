@@ -138,3 +138,15 @@ p {
 	float: right;
 	color: rgb(77, 77, 77);
 }
+
+.col-left-header{
+	width: 50%;
+	float: left;
+}
+
+.col-right-header{
+	width: 50%;
+	float: right;
+	color: rgb(77, 77, 77);
+	background-color: #1a94ff
+}
