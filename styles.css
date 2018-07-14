@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
-	color: white;
+
 }
 
 h1 {
@@ -159,7 +159,7 @@ p {
 	float: right;
 	color: rgb(77, 77, 77);
 }
-i {padding-right: 5px;
+i {padding-right: 2px;
 	color: #bdbdbd;
 }
  /* unvisited link */
@@ -185,57 +185,3 @@ a:link {
 	text-decoration: none;
 }
 
-/* Dark mode switch*/
-
-
-.wrap {
-	background-color: #fff;
-	color: #333;
-  }
-  .light {
-  /*  color: #333; */
-  /*  background-color: #fff; */
-  /*   -webkit-text-fill-color: #fff; */
-  }
-  .dark {
-  /*  color: #fff; */
-  /*  background-color: #333; */
-  /*   -webkit-text-fill-color: #333; */
-  }
-  .wrap div {
-	border: 1px solid #333;
-	width: 300px;
-	height: 150px;
-	margin-top: 10px;
-	text-align: center;
-	display: inline-block;
-	vertical-align: bottom;
-  }
-  .wrap div a {
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 50px;
-  }
-  .one {
-	color: red;
-	-webkit-text-fill-color: #fff;
-	-webkit-text-stroke: 2px red;
-  }
-  .two {
-	color: yellow;
-	-webkit-text-fill-color: #fff;
-	-webkit-text-stroke: 2px yellow;
-  }
-  .three {
-	color: green;
-	-webkit-text-fill-color: #fff;
-	-webkit-text-stroke: 2px green;
-  }
-  /* .dark .one,
-  .dark .two,
-  .dark .three {
-	-webkit-text-fill-color: #333;
-  } */
-  
-  
