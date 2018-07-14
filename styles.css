@@ -12,6 +12,10 @@ h1, h4 {
 	color: #1a94ff;
 }
 
+a .fa {
+	color: #777;
+	}
+
 #container {
 	width: 80%;
 	margin: auto
@@ -158,9 +162,7 @@ p {
 i {padding-right: 5px;
 }
 
-link {color: #a9a9a9;
-	padding-right: 5px;
-}
+
 
 /*Colapsible menu styles*/
 /*checkbox*/
