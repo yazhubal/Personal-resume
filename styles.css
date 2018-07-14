@@ -12,10 +12,10 @@ h1, h4 {
 	color: #1a94ff;
 }
 
-a .fa {
-	color: #777;
-	}
 
+fab fa-github {
+	color: red;
+}
 #container {
 	width: 80%;
 	margin: auto
@@ -160,9 +160,31 @@ p {
 	color: rgb(77, 77, 77);
 }
 i {padding-right: 5px;
+	color: #bdbdbd;
+}
+ /* unvisited link */
+ a:link {
+    color: #bdbdbd;
 }
 
+/* visited link */
+a:visited {
+    color: #bdbdbd;
+}
 
+/* mouse over link */
+a:hover {
+    color: #a7a7a7;
+}
+
+/* selected link */
+a:active {
+    color: #bdbdbd;
+} 
+a:link {
+	text-decoration: none;
+	
+	
 
 /*Colapsible menu styles*/
 /*checkbox*/
