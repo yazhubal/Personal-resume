@@ -1,23 +1,28 @@
 body {
 	font-family: 'Lato', sans-serif;
-	color: white;
+
 }
 
 h1 {
 	font-size: 300%;
+	
 }
 
 h1, h4 {
 	color: #1a94ff;
 }
 
+
+fab fa-github {
+	color: red;
+}
 #container {
 	width: 80%;
 	margin: auto
 }
 
 img {
-	width: 70%;
+	width: 80%;
 	height: auto;
 	float: right;
 	margin: 5px;
@@ -26,7 +31,7 @@ img {
 footer {
 	background-color: #807f7f;
 	color: white;
-	margin-top: 100%;
+	margin-top: 20px;
 }
 
 footer p {
@@ -40,7 +45,7 @@ footer p {
 		width: 90%;
 	}
 	h1 {
-		font-size: 300%;
+		font-size: 180%;
 	}
 	#mail {
 		color: rgb(77, 77, 77);
@@ -53,6 +58,10 @@ footer p {
 	}
 	.col-left {
 		padding-bottom: 30px;
+	
+	}
+	img {
+		width: 120%;
 	}
 }
 
@@ -70,6 +79,7 @@ footer p {
 
 section {
 	padding-bottom: 10px;
+	padding-top: 10px;
 	border-width: 1px;
 	border-bottom-style: dotted;
 	color: rgb(174, 174, 174);
@@ -120,6 +130,7 @@ p {
 .col-left-edu {
 	width: 22%;
 	float: left;
+
 }
 
 .col-right-edu {
@@ -138,3 +149,48 @@ p {
 	float: right;
 	color: rgb(77, 77, 77);
 }
+
+.col-left-header{
+	width:45%;
+	float: left;
+	color: #a9a9a9
+}
+
+.col-right-header{
+	width: 22%;
+	float: right;
+	color: rgb(77, 77, 77);
+}
+i {padding-right: 2px;
+	color: #bdbdbd;
+}
+ /* unvisited link */
+ a:link {
+    color: #bdbdbd;
+}
+
+/* visited link */
+a:visited {
+    color: #bdbdbd;
+}
+
+/* mouse over link */
+a:hover {
+    color: #a7a7a7;
+}
+
+/* selected link */
+a:active {
+    color: #bdbdbd;
+} 
+a:link {
+	text-decoration: none;
+}
+
+/*PROGRESS BAR*/
+progress {
+	background-color: #e2e2e2;
+	border: 0;
+	height: 5px;
+	border-radius: 2px;
+  }
