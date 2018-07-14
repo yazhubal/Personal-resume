@@ -79,6 +79,7 @@ footer p {
 
 section {
 	padding-bottom: 10px;
+	padding-top: 10px;
 	border-width: 1px;
 	border-bottom-style: dotted;
 	color: rgb(174, 174, 174);
@@ -129,6 +130,7 @@ p {
 .col-left-edu {
 	width: 22%;
 	float: left;
+
 }
 
 .col-right-edu {
@@ -185,3 +187,10 @@ a:link {
 	text-decoration: none;
 }
 
+/*PROGRESS BAR*/
+progress {
+	background-color: #f3f3f3;
+	border: 0;
+	height: 5px;
+	border-radius: 2px;
+  }
