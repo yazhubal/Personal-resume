@@ -1,12 +1,14 @@
 # Personal-resume
 
-Simple resume live career HTML project as a responsive webpage.<br>
+Simple resume live career HTML project as a responsive webpage.
 Writen in Visual Studio Code.
 
-Language:<br><br>
-HTML, CSS, JavaScript<br>
+## Language used:
 
-Technology:<br><br><br><br><br>
-1.CSS Progress bars<br><br><br><br><br>
-2.Collapsible cintent on Accordion CSS<br><br><br><br>
-3.Gallery grid on flex CSS<br><br><br>
+HTML, CSS, JavaScript
+
+## Technology:
+
+ 1. CSS Progress bars
+ 2. Collapsible cintent on Accordion CSS
+ 3. Gallery grid on flex CSS
