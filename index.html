@@ -55,8 +55,8 @@
 
 		<section>
 			<p>address: Gustave-Eiffel-Str. 6, 54294 Trier</p>
-			<p>mobile: +49 1575 833 15 10</p>
-			<p>e-mail: piotr.szuszkiewicz@gmail.com</p>
+			<p>mobile: <a href="tel:+49 1575 833 15 10">+ 49 1575 833 15 10</a> </p>
+			<p>e-mail: <a href="mailto:piotr.szuszkiewicz@gmail.com">piotr.szuszkiewicz@gmail.com</a></p>
 		</section>
 		<section id="edu">
 			<div class="col-left-edu">
@@ -129,6 +129,30 @@
 						<li>Social media management, SalesManago – mailing preparation</li>
 						<li>Graphic projects: 3D animations in Blender, technical drawings of products in Fusion360 and Solid Edge.</li>
 					</ul>
+					<button class="accordion"><i class="fas fa-plus"></i>Show examples</button>
+					<div class="panel">
+						<p>
+							<article>
+								<div>
+									<img src="../Personal-resume/images/PrivBW.jpg" alt>
+								</div>
+								<div>
+									<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-2.jpg" alt>
+								</div>
+								<div>
+									<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-3.jpg" alt>
+								</div>
+								<div>
+									<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-4.jpg" alt>
+								</div>
+								<div>
+									<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-5.jpg" alt>
+								</div>
+								<!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+						
+							</article>
+						</p>
+					</div>
 				</p>
 				<br>
 				<p>
@@ -140,7 +164,16 @@
 				<p>
 					<strong>Owner</strong>– professional architecture photographer, indoor &amp; outdoor; event photography, reportage; product photographer
 					for webshops, catalogues and printed marketing materials; night photography, city scapes.</p>
+				
+				
+				<button class="accordion">
+					<i class="fas fa-plus"></i>Show examples</button>
+				<div class="panel">
+					<section id="photos"></section>
+				</div>
 				</p>
+
+
 				<br>
 				<p>
 					<strong>Freelance</strong>
@@ -310,15 +343,58 @@
 
 		<section id="programming">
 			<div class="col-left-career">
-				<h4>Programming, coding</h4>
+				<h4>Coding</h4>
 			</div>
 			<div class="col-right-career">
-					<p>HTML, HTML5 			&nbsp; &nbsp;&nbsp;<progress value="75" max="100"></progress><br>
-						CSS, CSS3, SAAS		&nbsp; &nbsp;&nbsp;<progress value="70" max="100"></progress><br>
-						Java Script			&nbsp; &nbsp;&nbsp;<progress value="15" max="100"></progress><br>
-						Basic MSQL			&nbsp; &nbsp;&nbsp;<progress value="10" max="100"></progress><br>
-						Python, Django		&nbsp; &nbsp;&nbsp;<progress value="12" max="100"></progress><br>
-					</p>
+			
+				<div class="section group">
+					<!-- Test tabeli 2 dzielnej -->
+					<div class="col span_1_of_2">
+						<p>HTML, HTML5 </p>
+					</div>
+					<div class="col span_1_of_2">
+						<p id="progress"><progress value="75" max="100"></progress></p>
+					</div>
+				</div>
+				<div class="section group">
+					<!-- Test tabeli 2 dzielnej -->
+					<div class="col span_1_of_2">
+						<p>CSS, CSS3, SAAS </p>
+					</div>
+					<div class="col span_1_of_2">
+						<p id="progress"><progress value="70" max="100"></progress></p>
+					</div>
+				</div>
+				<div class="section group">
+					<!-- Test tabeli 2 dzielnej -->
+					<div class="col span_1_of_2">
+						<p>Java Script </p>
+					</div>
+					<div class="col span_1_of_2">
+						<p id="progress"><progress value="15" max="100"></progress></p>
+					</div>
+				</div>
+				<div class="section group">
+					<!-- Test tabeli 2 dzielnej -->
+					<div class="col span_1_of_2">
+						<p>Basic MSQL </p>
+					</div>
+					<div class="col span_1_of_2">
+						<p id="progress"><progress value="10" max="100"></progress></p>
+					</div>
+				</div>
+				<div class="section group">
+					<!-- Test tabeli 2 dzielnej -->
+					<div class="col span_1_of_2">
+						<p>Python, Django</p>
+					</div>
+					<div class="col span_1_of_2">
+						<p id="progress"><progress value="12" max="100"></progress></p>
+					</div>
+				</div>
+				<!-- Test tabeli 2 dzielnej -->
+			
+			
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -418,7 +494,9 @@
 		</section>
 
 	<footer>
-		<p>contact:</p>mail: piotr.szuszkiewicz@gmail.com
+		<p>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.</p>
+		<p>Ich bin einverstanden, dass meine in diesem Arbeitsangebot enthaltenen personalen Daten durch die Firma für die Rekrutierungszwecke verwendet werden, gemäβ dem Gesetz vom 29.08.1997 über den Schutz der Personaldaten (Gesetzblatt von 2016, Pos. 922 mit späteren Änderungen).</p>
+
 	</footer>
 
 	<script src="script.js"></script>

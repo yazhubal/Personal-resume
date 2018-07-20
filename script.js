@@ -1,12 +1,14 @@
-$('#mode').change(function(){   
-    
-  if ($(this).prop('checked'))
-  {
-      $('body').addClass('dark-mode');
-  }
-  else
-  {
-      $('body').removeClass('dark-mode');
+function getRandomSize(min, max) {
+    return Math.round(Math.random() * (max - min) + min);
   }
   
-});
+  var allImages = "";
+  
+  for (var i = 0; i < 25; i++) {
+    var width = getRandomSize(200, 400);
+    var height =  getRandomSize(200, 400);
+    allImages += '<img src="https://placekitten.com/'+width+'/'+height+'" alt="water">';
+  }
+  
+  $('#photos').append(allImages);
+  
